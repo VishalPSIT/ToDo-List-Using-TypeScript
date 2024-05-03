@@ -34,7 +34,7 @@ h1{
   font-size: 1.2 rem;
 
 }
-.container>form > button
+.container > form > button
 {
    width: 20%;
    padding: 1rem;
@@ -47,15 +47,25 @@ h1{
    letter-spacing: 2px;
    cursor: pointer;
 }
-.ToDoContainer{
+.todoContainer{
+  
   display: flex;
   flex-direction: column;
   gap:1rem;
+
 }
 .todo{
+  display:  flex;
+  gap: 1rem;
+  background-color: rgb(255,237,237);
+  padding: 1rem;
+  align-items:center;
+}
+.todo > input{
   width: 2rem;
   height: 2rem;
   flex: none;
+
 }
 .todo>p{
   font-weight: 600;
